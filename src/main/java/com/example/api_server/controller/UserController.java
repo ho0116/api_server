@@ -1,6 +1,6 @@
 package com.example.api_server.controller;
 
-import com.example.api_server.UserRepository;
+import com.example.api_server.repository.UserRepository;
 import com.example.api_server.model.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

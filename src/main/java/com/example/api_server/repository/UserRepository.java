@@ -1,4 +1,4 @@
-package com.example.api_server;
+package com.example.api_server.repository;
 
 import com.example.api_server.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
