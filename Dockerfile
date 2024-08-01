@@ -12,4 +12,4 @@ WORKDIR /app
 COPY --from=build /app/build/libs/api_server-0.0.1-SNAPSHOT.jar app.jar
 RUN ls /app # 최종 이미지에서 파일이 제대로 복사되었는지 확인
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
-EXPOSE 8080 # server.port=8080
+EXPOSE 8080
